@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(130deg, #43e01c6c 0%, #004851 100%);
+}
+
+header {
+    background-color: #db3a3a7c;
+    height: 100px;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+header > div > h1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+header > h1 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: .25px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 50px;
+    padding: 25px;
+    float: right;
+}
+
+nav h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* float: left; */
+    margin-left: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 25px;
+    width: 600px;
+    font-size: 22px;
+}
+
+nav li {
+    cursor: pointer;
+    z-index: 1;
+    background: rgb(141, 231, 57);
+    background: radial-gradient(circle, rgb(121, 231, 57) 0%, rgb(25, 139, 44) 100%);
+    color: white;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+nav li:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.page-title {
+    font-family: "UnifrakturCook" cursive;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: .25px;
+    line-height: 1.25;
+    overflow-wrap: break-word;
+}
+
+.image-home {
+    display: flex;
+    justify-content: right;
+}
+
+.image-gallery {
+    display: grid;
+    flex-direction: column;
+}
