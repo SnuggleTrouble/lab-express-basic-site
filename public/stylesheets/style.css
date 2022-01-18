@@ -55,7 +55,7 @@ nav h1 {
     margin-left: 50px;
 }
 
-nav ul, a {
+nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
